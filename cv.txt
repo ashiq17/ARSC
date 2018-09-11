@@ -1,0 +1,379 @@
+// mahbub cv submission start here
+	public function cv_submission_form(){
+		$data['get_header'] = $this->Home_Model->get_header();
+		$data['job_post_title'] = $this->Home_Model->get_job_post_title();
+		$this->load->view('pages/cv_submission_form',$data);
+	}
+
+
+	public function cv_submission_form_info_add(){
+		if (isset($_POST['submit']) == 'Submit'){
+			$job_applied_post_name = trim($this->input->post('job_applied_post_name'));
+			$email                 = trim($this->input->post('email'));
+			$contact_no            = trim($this->input->post('contact_no'));
+
+			$Query = "SELECT * FROM  tbl_cv_submition_form WHERE 1=1
+					 AND job_applied_post_name = '$job_applied_post_name'
+					 AND email = '$email'
+					 AND contact_no = '$contact_no'
+					";
+			$query_result = $this->db->query($Query)->result_array();
+			if(count($query_result)>=1){
+				// $data['alert']           = "<span style='color:red !important'>Already submitted your CV, Thank you.</span>";
+				$data['alert']           = "Already submitted your CV, Thank you.";
+				$data['backUrl']         = "<span style='color:white'>Back</span>";
+				$this->load->view('pages/alert', $data);
+			}else{
+				$this->Home_Model->cv_submission_form_adding();
+				$data['alert']           = "Successfully submitted your CV. Thank you!";
+				$data['backUrl']         = '';
+				$this->load->view('pages/alert', $data);
+			}
+		}else{
+
+			$data['alert']           = "Application is not submitted, Try again!";
+			$data['backUrl']         = '';
+			$this->load->view('pages/alert', $data);
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<?php $this->load->view('common/header');?>
+<?php 
+$country_arr = array("Barguna","Barisal","Bhola","Jhalokati","Patuakhali","Pirojpur","Bandarban","Brahmanbaria","Chandpur","Chittagong","Comilla","Cox's Bazar","Feni","Khagrachari","Lakshmipur","Noakhali","Rangamati","Dhaka","Faridpur","Gazipur","Gopalganj","Jamalpur","Kishoreganj","Madaripur","Manikganj","Munshiganj","Mymensingh","Narayanganj","Narsingdi","Netrokona","Rajbari","Shariatpur","Sherpur","Tangail","Bagerhat","Chuadanga","Jessore","Jhenaidah","Khulna","Kushtia","Magura","Meherpur","Narail","Satkhira","Bogra","Dinajpur","Gaibandha","Jaipurhat","Kurigram","Lalmonirhat","Naogaon","Natore","Nawabganj","Nilphamari","Pabna","Panchagarh","Rajshahi","Rangpur","Sirajganj","Thakurgaon","Habiganj","Maulvibazar","Sunamganj","Sylhet");
+sort($country_arr);
+ ?>
+<style type="text/css">
+	.form-control{
+	 	height: 28px;
+	}
+	.form-group {
+	    margin-bottom: 5px;
+	}
+	.btn{
+		padding: 4px 30px;
+		font-size: 12px;
+	}
+	.btn-file input[type=file] {
+	    font-size: 0;
+	}
+	legend {
+	    /*margin-top: 25px;*/
+	    color: #000;
+	    border-bottom: none;
+	    text-align: center;
+	    font-weight: bold;
+	    margin-bottom: 15px;
+	}
+	.table-bordered {
+	     border: 0px solid #ddd; 
+	}
+	.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	    border: 0px solid #ddd;
+	}
+</style>
+<div class="container ">
+	<div class="row ">
+		<?php $job_post_id=$this->uri->segment(3); ?>
+		<?php $circular_id=$this->uri->segment(4); ?>
+		<div class="col-md-12 cv_form">
+				<form class="form-horizontal" action="<?php echo base_url();?>Home/cv_submission_form_info_add" method="post" enctype="multipart/form-data">
+                 <fieldset>
+					<?php if (empty($job_post_id)){?>
+						<legend><span style='border-bottom:2px solid #000;'>CV Submission</span></legend>
+					<?php }else{ ?>
+						<legend><span style='border-bottom:2px solid #000;'>Apply Online</span></legend>
+					<?php } ?>	
+					 
+            <?php
+               if($this->session->has_userdata('message')){
+            ?>          
+                      <div class="alert alert-success text-center successMessage">
+                        <strong><?php echo $this->session->message;?></strong>
+                      </div>
+                     
+            <?php          
+                      $this->session->unset_userdata('message');
+                      
+                  }elseif($this->session->has_userdata('error_msg')){
+            ?> 
+
+                    <div class="alert alert-danger text-center successMessage">
+                      <strong><?php echo $this->session->error_msg;?></strong> 
+                    </div>
+            <?php 
+                    $this->session->unset_userdata('error_msg');
+                  }
+            ?>
+
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="name">Name <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4">
+							<input id="name" name="applicant_name" type="text" placeholder="Full Name" class="form-control input-md" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-md-4">
+							<input name="circular_id" type="hidden" value =" <?php  echo $circular_id?>"class="form-control input-md">
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="post">Position Applied <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4">
+								<?php if (empty($job_post_id)){?>
+								<select id="selectbasic" name="job_applied_post_name" class="form-control input-md" required>
+	                                <option value="">Choose an option</option>
+	                                 <?php foreach ($job_post_title as $key => $job_post_title_value) {
+	                                    ?> 
+	                                    <option value="<?php echo $job_post_title_value['job_post_id']; ?>">
+	                                    	<?php echo $job_post_title_value['job_post_name'] ?>
+	                                    </option>
+	                                <?php } ?>
+	                            </select>
+	                            <?php }elseif(!empty($job_post_id)){ ?> 
+	                            	<?php foreach ($job_post_title as $key => $job_post_title_value) { 
+	                            			if($job_post_id==$job_post_title_value['job_post_id']){
+	                            	?>
+		                            		<input style="color:green; font-weight:bold;" class="form-control input-md" name="" value="<?php echo $job_post_title_value['job_post_name'];?>" type="text" readonly>
+		                            		<input class="form-control input-md" name="job_applied_post_name" value="<?php echo $job_post_id; ?>" type="hidden">
+	                            	<?php 
+	                            			}
+	                            		}
+	                            	} 
+	                            ?>
+						</div>
+					</div>
+
+					<!-- Multiple Radios (inline) -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="Gender">Gender </label>
+						<div class="col-md-4"> 
+							<label class="radio-inline" for="Gender-0">
+								<input type="radio" name="gender" id="Gender-0" value="male" checked="checked">
+								Male
+							</label> 
+							<label class="radio-inline" for="Gender-1">
+								<input type="radio" name="gender" id="Gender-1" value="female">
+								Female
+							</label>
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="date">Date of Birth <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4 input-group" style="padding-left:15px;padding-right:15px;">
+							<div class="input-group-addon">
+					         	<i class="fa fa-calendar"></i>
+					        </div>
+							<input class="form-control input-md" id="date" name="birth_day" placeholder="dd/mm/yyyy" type="text" required/>
+
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="contact_no">Contact No. <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4">
+							<input id="contact_no" name="contact_no" type="text" placeholder="Contact No." class="form-control input-md" required/>
+
+						</div>
+					</div>
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="email">Email Address <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4">
+							<input id="email" name="email" type="email" placeholder="Keep your email address" class="form-control input-md" required>
+
+						</div>
+					</div>
+
+					<!-- Text input-->
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="address">Address <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4">
+							<input id="address" name="address" type="text" placeholder="Keep your address here" class="form-control input-md" required>
+
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="district">District <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4">
+							<select id="district" name="district" value="" class="form-control input-md" required>
+								<option value="">Select an option</option>
+								<?php foreach ($country_arr as $key => $value): ?>
+									<option><?php echo $value; ?></option>
+								<?php endforeach ?>
+							</select>
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="expert_on">Expert On</label>  
+						<div class="col-md-4">
+							<textarea class="form-control input-md" id="expert_on" name="expert_on" placeholder="Write your expertise (maximum 30 characters)" style="heighr:63px;"></textarea>
+
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="experience">Experiences</label>  
+						<div class="col-md-4">
+							<input id="experience" name="experience1" type="text" placeholder="Keep your experience 1 here" class="form-control input-md">
+							<input id="experience" name="experience2" type="text" placeholder="Keep your experience 2 here" class="form-control input-md">
+
+						</div>
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="imgInp">Picture <span class="required" style="color:red">(*)</span></label>  
+						<div class="col-md-4 input-group" style="padding-left:15px;padding-right:15px;">
+				            <div class='col-md-12' style='padding:0px;'>
+				                  <input style="width:100%;padding-top: 2px;padding-left: 0px;margin-bottom:-2px;" class="form-control" type='file' name='image' id='imgInp' required> 
+				                  <span style="font-size:12px;color:red;">(Accepted File Type: .jpg, .png, .pdf)</span>
+			            	</div>
+				        </div>
+					</div>
+						<!-- Text input-->
+						<div class="form-group">
+							<label class="col-md-4 control-label" for="cv_file">Attach CV <span class="required" style="color:red">(*)</span></label>  
+							<div class="col-md-4 input-group" style="padding-left:15px;padding-right:15px;">
+					            <div class='col-md-12' style='padding:0px;'>
+					                  <input style="width:100%;padding-top: 2px;padding-left: 0px;margin-bottom:-2px;" class="form-control" type='file' name='cv_file' id='cv_file' required>
+					                  <span style="font-size:12px;color:red;">(Accepted File Type: .doc, .docx, .pdf, .jpg, .png)</span>
+				            	</div>
+					        </div>
+						</div>
+						<div class="form-group">
+							<label class="col-md-4 control-label" for="cv_file">Other Documents</label>  
+							<div class="col-md-4 input-group" style="padding-left:15px;padding-right:15px;">
+								<table class="table table-small-font table-bordered table-condensed">
+								    <tbody>
+								        <tr>
+								            <td style='width:100%;padding:0px;'>
+								            	<div class='col-md-12' style='padding:0px;'>
+        							                  <input style="width:100%;padding-top: 2px;padding-left: 0px;margin-bottom:-2px;" class="form-control" type='file' name='others_document[]' id='others_document'>
+        							                  <span style="font-size:12px;color:red;">(Accepted File Type: .doc, .docx, .pdf, .jpg, .png)</span>
+    							            	</div>
+								            </td>
+								            <td style='padding:0px;'><input type='button' value='+' class='btnAdd2' style='width:100%;padding-bottom: 3px;'></input></td>
+								        </tr>
+								    </tbody>
+								</table>
+					        </div>
+						</div>
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="submit"></label>
+						<div class="col-md-4 submit-btn">
+							<div class="col-md-4"></div>
+							<button id="submit" name="submit" class="col-md-4 btn btn-success" value="Submit" style="margin:auto">SUBMIT</button>
+							<div class="col-md-4"></div>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<?php $this->load->view('common/footer');?>
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+
+<script>
+	$(document).ready(function(){
+       	var count = 2;  
+       	$('table').on('click', '.btnAdd2', function(){  
+           var tr = "<tr><td style='width:100%;padding:0px;'><div class='col-md-12' style='padding:0px;'><input style='width:100%;padding-top: 2px;padding-left: 0px;margin-bottom:-3px;' class='form-control' type='file' name='others_document[]' id='others_document'></div><span style='font-size:12px;color:red;'>(Accepted File Type: .doc, .docx, .pdf, .jpg, .png)</span></td><td style='padding:0px;'><input type='button' value='+' class='btnAdd2' style='width:100%;padding-bottom: 3px;'></input></td></tr>";
+           $(this).closest('table').append(tr);
+           $(this).attr('value', '-');
+           $(this).toggleClass('btnDelete').toggleClass('btnAdd2');
+       	}).on('click', '.btnDelete', function(){
+           confirm('Are you sure want to delete?');
+           $(this).closest('tr').remove();
+       	});
+	});
+
+
+	$(document).ready(function(){
+		var date_input=$('input[name="birth_day"]'); //our date input has the name "date"
+		var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+		date_input.datepicker({
+			format: 'dd/mm/yyyy',
+			container: container,
+			todayHighlight: true,
+			autoclose: true,
+		})
+	})
+
+	$(document).ready( function() {
+    	$(document).on('change', '.btn-file :file', function() {
+		var input = $(this),
+			label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+		input.trigger('fileselect', [label]);
+		});
+
+		$('.btn-file :file').on('fileselect', function(event, label) {
+		    
+		    var input = $(this).parents('.input-group').find(':text'),
+		        log = label;
+		    
+		    if( input.length ) {
+		        input.val(log);
+		    } else {
+		        if( log ) alert(log);
+		    }
+	    
+		});
+		function readURL(input) {
+		    if (input.files && input.files[0]) {
+		        var reader = new FileReader();
+		        
+		        reader.onload = function (e) {
+		            $('#img-upload').attr('src', e.target.result);
+		        }
+		        
+		        reader.readAsDataURL(input.files[0]);
+		    }
+		}
+
+		$("#imgInp").change(function(){
+		    readURL(this);
+		}); 
+
+		setTimeout(function() {
+		      $('.successMessage').fadeOut('slow');
+		      }, 5000);
+	});
+</script>
+
+

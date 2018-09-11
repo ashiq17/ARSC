@@ -1,0 +1,33 @@
+.my-bg {
+    /*background: url(../img/background.png);*/
+	/*background: url(../img/background1.png);*/
+
+    background: #f3f3f4;
+
+}
+
+.add-post-category {
+	overflow-y:scroll; 
+	overflow-x:hidden; 
+	height:250px;
+}
+
+.add-post-category ul {
+	list-style: none;
+	padding-left: 0px;
+}
+.sd-button {
+    background-color: #333;
+    border: 1px solid #016938;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.sd-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+.radio, .checkbox {
+  display: inline;
+}

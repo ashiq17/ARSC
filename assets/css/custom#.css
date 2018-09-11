@@ -1,0 +1,63 @@
+
+/************** photo-gallery start ******************/
+
+.photo-gallery {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.photo-gallery .carousel-inner {
+    height: 100%;
+}
+
+.photo-gallery .carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo-gallery .nav-tabs{
+    background-color: #333;
+}
+
+.photo-gallery .tab-pane {
+    background-color: #333;
+    color: #fff;
+}
+
+.photo-gallery .nav-tabs>li.active>a {
+    background-color: #bb1919;
+    color: #fff;
+}
+
+.photo-gallery .nav-tabs li a {
+    color: #fff;
+}
+
+.photo-gallery .nav-tabs li a:hover {
+    background-color: #bb1919;
+    color: #fff;
+}
+
+
+.photo-gallery .tab-pane .tab-img {
+    padding: 5px 20px 5px 20px;
+}
+
+.photo-gallery .tab-pane img {
+    background-color: #333;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.photo-gallery .tab-pane .title {
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+/************** photo-gallery end ******************/
+a:hover, a:focus {
+     color: green; 
+    text-decoration: none !important;
+}

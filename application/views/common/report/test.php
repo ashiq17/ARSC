@@ -1,0 +1,1000 @@
+<?php $this->load->view('common/header'); ?>
+<!--************************************
+                        Inner Banner Start
+        *************************************-->
+<div class="tg-innerbanner">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ol class="tg-breadcrumb">
+                    <li><a href="javascript:void(0);">একাডেমিক</a></li>
+                    <li class="tg-active">শ্রেণীর সময়সূচী</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!--************************************
+                Inner Banner End
+*************************************-->
+<?php $this->load->view('common/SidebarLeft'); ?>
+
+<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 pull-center">
+    <div class="panel">
+        <div class="panel-body">
+            <h2>শ্রেণীর সময়সূচী</h2>
+            
+        </div>
+    </div>
+    <h4>২০১৮ শিক্ষাবর্ষের সকল শ্রেণীর রুটিন</h4>
+    <br>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">শ্রেণীঃ ১</a></li>
+        <li><a data-toggle="tab" href="#menu1">শ্রেণীঃ ২</a></li>
+        <li><a data-toggle="tab" href="#menu2">শ্রেণীঃ ৩</a></li>
+        <li><a data-toggle="tab" href="#menu3">শ্রেণীঃ ৪</a></li>
+        <li><a data-toggle="tab" href="#menu4">শ্রেণীঃ ৫</a></li>
+        <li><a data-toggle="tab" href="#menu5">শ্রেণীঃ ৬</a></li>
+        <li><a data-toggle="tab" href="#menu6">শ্রেণীঃ ৭</a></li>
+        <li><a data-toggle="tab" href="#menu7">শ্রেণীঃ ৮</a></li>
+        <li><a data-toggle="tab" href="#menu8">শ্রেণীঃ ৯</a></li>
+        <li><a data-toggle="tab" href="#menu9">শ্রেণীঃ ১০</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            <br>
+            <p><span style="color: green;">প্রথম শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>সাধারন জ্ঞান</td>
+                        <td>গণিত</td>
+                        <td>ইএফটি</td>
+                        <td>অঙ্কন</td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>গণিত</td>
+                        <td>ইএফটি</td>
+                        <td>অঙ্কন</td>
+                        <td>সাধারন জ্ঞান</td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>বাংলা</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>এসিই</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td>সাধারন জ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td>ইএফটি</td>
+                        <td>এসিই</td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td>এসিই</td>
+                        <td>ধর্ম</td>
+                        <td>সামাজিক পরিচিতি</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">দ্বিতীয় শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+<table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>ধর্ম</td>
+                        <td>বাংলা</td>
+                        <td>ইএফটি</td>
+                        <td>এসিই</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>ধর্ম</td>
+                        <td>বাংলা</td>
+                        <td>ইএফটি</td>
+                        <td>ইএফটি</td>
+                        <td>গণিত</td>
+                        <td>সাধারন জ্ঞান</td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>ধর্ম</td>
+                        <td>এসিই</td>
+                        <td>বাংলা</td>
+                        <td>ইএফটি</td>
+                        <td>অঙ্কন</td>
+                        <td>গণিত</td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>সাধারন জ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td>এসিই</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>সাধারন জ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>অঙ্কন</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div id="menu2" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">তৃতীয় শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>গণিত</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                        <td>অঙ্কন</td>
+                        <td>ধর্ম</td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>গণিত</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ইংরেজি</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                        <td>ধর্ম</td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>অঙ্কন</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>বিজিএস</td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>গণিত</td>
+                        <td>এল</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা</td>
+                        <td>বিজ্ঞান</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">চতুর্থ শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                        <td>অঙ্কন</td>
+                        <td>ধর্ম</td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা</td>
+                        <td>অঙ্কন</td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বিজিএস</td>
+                        <td>গণিত</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজ্ঞান</td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>ধর্ম</td>
+                        <td>ল্যাব</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>ধর্ম</td>
+                        <td>ধর্ম</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu4" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">পঞ্চম শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td>ধর্ম</td>
+                        <td>বাংলা</td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>ইংরেজি</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>বিজিএস</td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>বাংলা</td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>ইংরেজি</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu5" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">ষষ্ঠ (এ) শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>বাংলা</td>
+                        <td>বাংলা</td>
+                        <td>ধর্ম</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>বিজ্ঞান</td>
+                        <td>গনিত</td>
+                        <td>গনিত</td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>গার্হস্থ্য বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>বিজিএস</td>
+                        <td>ধর্ম</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজ্ঞান</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>বিজিএস</td>
+                        <td>আইসিটি</td>
+                        <td>ইংরেজি</td>
+                        <td>গণিত</td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>গার্হস্থ্য বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td>বিজিএস</td>
+                        <td>গণিত</td>
+                        <td>ইংরেজি</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>গার্হস্থ্য বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>আইসিটি</td>
+                        <td>বিজিএস</td>
+                        <td>গণিত</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <p><span style="color: green;">ষষ্ঠ (বি) শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>বিজিএস</td>
+                        <td>বিজ্ঞান</td>
+                        <td>গণিত</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>ইংরেজি-১ম পত্র</td>
+                        <td>আইসিটি</td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>কৃষি শিক্ষা</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা-১ম পত্র</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা-২য় পত্র</td>
+                        <td>ধর্ম</td>
+                        <td>ধর্ম</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                        <td>ধর্ম</td>
+                        <td>কৃষি শিক্ষা</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td>বাংলা-২য় পত্র</td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা-২য় পত্র</td>
+                        <td>আইসিটি</td>
+                        <td>কৃষি শিক্ষা</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                        <td>বাংলা</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ধর্ম</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </div>
+        <div id="menu6" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">সপ্তম (এ) শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>গণিত</td>
+                        <td>গার্হস্থ্য বিজ্ঞান</td>
+                        <td>আইসিটি</td>
+                        <td>বাংলা</td>
+                        <td>বিজিএস</td>
+                        <td>ইংরেজি</td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>আইসিটি</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>ধর্ম</td>
+                        <td>গার্হস্থ্য বিজ্ঞান</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>ধর্ম</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td>বিজিএস</td>
+                        <td>বিজিএস</td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>এম</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>ইংরেজি</td>
+                        <td>বিজিএস</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>ধর্ম</td>
+                        <td>গণিত</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>বাংলা</td>
+                        <td>বিজ্ঞান</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            
+            <p><span style="color: green;">সপ্তম (বি) শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>ইংরেজি-১ম পত্র</td>
+                        <td>কৃষি শিক্ষা</td>
+                        <td>ধর্ম</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বিজিএস</td>
+                        <td>বাংলা</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>কৃষি শিক্ষা</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                        <td>বাংলা</td>
+                        <td>বিজিএস</td>
+                        <td>বিজিএস</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>ইংরেজি-১ম পত্র</td>
+                        <td>কৃষি শিক্ষা</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ইংরেজি-২য় পত্র</td>
+                        <td>বাংলা</td>
+                        <td>গণিত</td>
+                        <td>আইসিটি</td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>ইংরেজি-১ম পত্র</td>
+                        <td>ধর্ম</td>
+                        <td>আইসিটি</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বিজিএস</td>
+                        <td>বাংলা</td>
+                        <td>বাংলা</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>গণিত</td>
+                        <td>ধর্ম</td>
+                        <td>গণিত</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </div>
+        <div id="menu7" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">অষ্টম শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বিজিএস</td>
+                        <td>আইসিটি</td>
+                        <td>ইংরেজি -২য় পত্র</td>
+                        <td>গণিত</td>
+                        <td>ইংরেজি -১ম পত্র</td>
+                        <td>ধর্ম</td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ইংরেজি - ২য় পত্র</td>
+                        <td>ইংরেজি -২য় পত্র</td>
+                        <td>বিজিএস</td>
+                        <td>ধর্ম</td>
+                        <td>বাংলা - ২য় পত্র</td>
+                        <td>ইংরেজি - ১ম পত্র</td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বিজ্ঞান</td>
+                        <td>গণিত</td>
+                        <td>বিজিএস</td>
+                        <td>ধর্ম</td>
+                        <td>বাংলা - ২য় পত্র</td>
+                        <td>আইসিটি</td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>ইংরেজি -১ম পত্র</td>
+                        <td>বাংলা - ১ম পত্র</td>
+                        <td>বাংলা - ২য় পত্র</td>
+                        <td>ইংরেজি - ২য় পত্র</td>
+                        <td>ধর্ম</td>
+                        <td>বিজিএস</td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td>বিজ্ঞান</td>
+                        <td>বাংলা -১ম পত্র</td>
+                        <td>গণিত</td>
+                        <td>ধর্ম</td>
+                        <td>ইংরেজি -১ম পত্র</td>
+                        <td>গণিত</td>
+                        <td>গণিত</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu8" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">নবম শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td>বাংলা - ২য় পত্র</td>
+                        <td>সাধারন গণিত</td>
+                        <td>ইংরেজি - ২য় পত্র</td>
+                        <td>বিই <br> পদার্থ বিজ্ঞান</td>
+                        <td>
+                        	
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu9" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">বার্ষিক : ১৬ জুলাই–৩১ ডিসেম্বর, ২০১৮ </span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="menu10" class="tab-pane fade">
+            <br>
+            <p><span style="color: green;">দশম শ্রেণীর রুটিন</span>
+                <br>
+                <br>
+            </p>
+            <table class="table" border="1" responsive style="text-align: wrap-text">
+                <thead>
+                    <tr>
+                        <th>দিন সূমহ</th>
+                        <th>১ম</th>
+                        <th>২য়</th>
+                        <th>৩য়</th>
+                        <th>৪র্থ</th>
+                        <th>৫ম</th>
+                        <th>৬ষ্ঠ</th>
+                        <th>৭ম</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>রবিবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>      
+                    <tr class="success">
+                        <td>সোমবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="danger">
+                        <td>মঙ্গলবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="info">
+                        <td>বুধবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="warning">
+                        <td>বৃহস্পতিবার</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+    <?php $this->load->view('common/SidebarRight'); ?>
+    <?php $this->load->view('common/footer'); ?>

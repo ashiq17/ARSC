@@ -1,0 +1,172 @@
+#media-upload {
+	font: 1.1em 'Source Sans Pro';
+}
+
+#media-upload h1, #media-upload h2, #media-upload h3, #media-upload h4, #media-upload h5 {
+	font-weight: 400;
+}
+
+.hidden {
+	display: none;
+}
+
+#media-upload .wrapper {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.upload-console {
+	background: #fefefe;
+	border: 2px solid #eee;
+	padding: 20px
+}
+
+.upload-console-header {
+	padding: 0 0 20px 0;
+	margin: 0;
+	border-bottom: 2px solid #eee;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.upload-console-drop {
+	height: 80%;
+	border: 2px dashed #ccc;
+	color: #ccc;
+	line-height: 50vh;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.upload-console-drop.drop {
+	border-color: #222;
+	color: #222;
+}
+
+.bar {
+	background: #eee;
+	width: 100%;
+	padding: 3px;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.bar-fill {
+	height: 30px;
+	display: block;
+	background: cornflowerblue;
+	width: 0;
+	border-radius: 3px;
+	-webkit-transition:width 0.8s ease;
+	transition:width 0.8s ease;
+}
+
+.bar-fill-text {
+	color: #fff;
+	line-height: 30px;
+	margin-left: 5px;
+}
+
+.upload-console-upload {
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.upload-console-upload span {
+	float: right;
+}
+#media-file ul {
+	list-style: none;
+}
+#media-file ul li {
+	display: inline;
+	/*margin-right: -20px;*/
+}
+#media-file .thumbnail {
+	display: inline;
+	padding: 0; 
+	margin-bottom: 0; 
+}
+
+#node-id :checked+label:before {
+	position: absolute;
+	z-index: 100;
+	content: url("../img/checked_checkbox.png");
+}
+#node-id input[type=checkbox] {
+  display: none;
+}
+/*pure cosmetics:*/
+#media-file img {
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+}
+
+#tab-1, #tab-2 {
+	width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#imgupload, #imgselect {
+	height: auto;
+    width: 100%;
+}
+
+#imgnormalupload {
+	position: absolute;
+    top: 80px;
+    bottom: 0;    
+    width: 25%;
+}
+
+#imgddarea {
+	/*overflow-y:scroll; 
+	overflow-x:hidden; 
+	height:250vy;*/
+	position: absolute;
+    top: 80px;
+    left: 25%;
+    bottom: 50px;
+    right: 25%;
+    width: 72%;
+}
+
+#media-file {
+	position: absolute;
+    top: 80px;
+    bottom: 0;
+    width: 70%;
+    overflow: auto;
+    outline: 0
+}
+
+#imageDetails  {
+	/*overflow-y:scroll; 
+	overflow-x:hidden; 
+	height:250vy;*/
+	background: #f3f3f3;
+	position: absolute;
+    top: 73px;
+    left: 75%;
+    bottom: 0;
+    right: 25%;
+    width: 22%;
+    border-left: 1px solid #e5e5e5; 
+}
+
+/*#imageID2 {
+	border: 2px solid #222c43;
+}*/
+
+/*#node-id {
+	overflow-y:scroll; 
+	overflow-x:hidden; 
+	height:100%;
+}*/
