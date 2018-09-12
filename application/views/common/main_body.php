@@ -19,24 +19,18 @@ $header_data = $this->Home_Model->get_header_data();
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="tg-homebannervtwo">
                 <div id="tg-homeslider" class="tg-homeslider owl-carousel tg-btnround tg-haslayout">
-
                     <?php
                     $i = 0;
                     $active = 'active';
                     foreach ($get_gallery_slider_image as $key => $value) {
                         $i++;
                         ?>
-
                         <div class="item">
                             <figure>
                                 <img src='<?php echo base_url(); ?>images/photo-gallery/<?php echo $value['ph_image']; ?>' alt="image description">
-
                             </figure>
                         </div>
-
                     <?php } ?>
-
-
                 </div>
                 <div class="tg-noticeboardarea">
                     <div class="tg-widget tg-widgetadmissionform">
@@ -83,7 +77,6 @@ $header_data = $this->Home_Model->get_header_data();
                     <div id="tg-content" class="tg-content">
                         <section class="tg-sectionspace tg-haslayout">
                             <div class="tg-shortcode tg-welcomeandgreeting">
-
                                 <div class="tg-shortcodetextbox">
                                     <h2>আব্দুর রাজ্জাক স্কুল অ্যান্ড কলেজ</h2>
                                     <br>
@@ -105,14 +98,12 @@ $header_data = $this->Home_Model->get_header_data();
                                 </figure>                                
                                 <div class="tg-shortcodetextbox">
                                     <h3>প্রতিষ্ঠাতার সম্পর্কে কিছু কথা</h3>
-                                    <!--<h4>সভাপতির বাণী</h4>-->
                                     <br>
                                     <div class="tg-description">
                                         <p>আলোকিত মানুষ গড়ার নেপথ্যের কুশলী কারিগর। দেশপ্রেম, মুক্তচিন্তা, সেবামূলক ও কল্যাণকর কর্মকান্ডের বৃত্তে আলোকরশ্মি উজ্জ্বল ব্যক্তিত্ব তিনি। অগ্রসর ও শিক্ষিত সমাজ গঠনে সমাজমনস্ক নান্দনিক ব্যক্তি হিসেবে যাঁকে অভিহিত করা যেতে পারে অনায়াসে।
                                             সাধকের তকমা লাগানো লালনের কুষ্টিয়ার মানুষ তিনি। দৌলতপুর উপজেলার ফিলিপনগর গ্রামে সম্ভ্রান্ত মুসলিম পরিবারে জন্মগ্রহণ করেছেন। কুষ্টিয়ার মাটি নানাসময়ে জন্ম দিয়েছে অনেক সাধক-পুরুষের। আব্দুর রাজ্জাক এ-সময়কালে শিক্ষার আলো জ্বালানো প্রত্যয়ী সাধক-পুরুষ। যাঁর জীবনব্রত মানুষের কল্যাণসাধন।
                                             আব্দুর রাজ্জাক সরকারি কর্মকর্তা-বাবার সন্তান। পিতা আব্দুল মোত্তালিব থানা কৃষি কর্মকর্তা ছিলেন। তিনি ইচ্ছে করলে মেধা-শ্রমে-সাধনায় সরকারি কর্মকর্তা হওয়ার পথটি সহজেই মুঠোবন্দি করতে পারতেন, তিনি তা করেন নি। মানুষের সেবা করার জন্য, শিক্ষিত সমাজ গড়ে তোলার জন্য, অসচ্ছল মানুষের পাশে সহযোগিতার হাত বাড়ানোর জন্য ব্যবসাকেই তিনি শ্রেয় মনে করেছেন এবং পেশাগত জীবনে ব্যবসাকেই গ্রহণ করেছেন, ললাটে পরে নিতে পেরেছেন সাফল্যতিলক।
-                                        </p>    
-                                            
+                                        </p>                                              
                                     </div>
                                     <div id="demo" class="collapse">
                                         <p>
@@ -131,7 +122,6 @@ $header_data = $this->Home_Model->get_header_data();
                         </section>
                     </div>
                 </div>
-
                 <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
                     <aside id="tg-sidebar" class="tg-sidebar">
                         <div class="tg-widget tg-widgetdownload">
@@ -169,7 +159,8 @@ $header_data = $this->Home_Model->get_header_data();
                                             <i class="fa fa-bookmark-o"></i>
                                             <span>পরীক্ষার নীতিমালা</span>
                                         </a>
-                                    </li><!-- <li>
+                                    </li>
+                                    <!-- <li>
                                         <a href="javascript:void(0);">
                                             <i class="fa fa-bookmark-o"></i>
                                             <span>Examination Guide 2017</span>
@@ -210,7 +201,6 @@ $header_data = $this->Home_Model->get_header_data();
                                                     <p>স্কুলের কার্যকলাপ ও ঘটনাবলীসূমহ </p>
                                                 </div>
                                                 <button class="btn btn-success btn-sm">বিস্তারিত জানতে</button>
-
                                             </div>
                                         </article>
                                     </div>
@@ -235,7 +225,6 @@ $header_data = $this->Home_Model->get_header_data();
                                                     <p>স্কুলের কার্যকলাপ ও ঘটনাবলীসূমহ </p>
                                                 </div>
                                                 <button class="btn btn-success btn-sm">বিস্তারিত জানতে</button>
-
                                             </div>
                                         </article>
                                     </div>
@@ -260,7 +249,6 @@ $header_data = $this->Home_Model->get_header_data();
                                                     <p>স্কুলের কার্যকলাপ ও ঘটনাবলীসূমহ </p>
                                                 </div>
                                                 <button class="btn btn-success btn-sm">বিস্তারিত জানতে</button>
-
                                             </div>
                                         </article>
                                     </div>
