@@ -17,8 +17,6 @@ $footer_data = $this->Home_Model->get_footer_data();
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="tg-widget tg-widgetcompanyinfo">
-
-
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="tg-contactus tg-contactusvone">
                                 <div class="tg-widgettitle tg-text">
@@ -30,11 +28,9 @@ $footer_data = $this->Home_Model->get_footer_data();
                                             <iframe style="height: 160px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5948071393786!2d90.43074971492905!3d23.76182449425676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b80a99878525%3A0xd934dd4081742b24!2sAbdur+Razzaque+School+And+College!5e0!3m2!1sen!2sbd!4v1534076621152" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
@@ -44,7 +40,6 @@ $footer_data = $this->Home_Model->get_footer_data();
                             <h3>শিক্ষা বোর্ডের লিংক সমূহ</h3>
                         </div>
                         <div class="tg-widgetcontent">
-
                             <ul class="tg-infolist">
                                 <li>
                                     <i class="icon-star"></i>
@@ -59,17 +54,13 @@ $footer_data = $this->Home_Model->get_footer_data();
                                     <span><a href="http://www.educationboardresults.gov.bd/">মাধ্যমিক স্কুল সার্টিফিকেট</a></span>
                                 </li>
                                 <li>
-
                                     <i class="icon-star"></i>
                                     <span><a href="http://www.educationboardresults.gov.bd/">উচ্চ মাধ্যমিক শিক্ষা বোর্ড বাংলাদেশ</a></span>
-
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <div class="tg-widget tg-widgetcompanyinfo">
                         <div class="tg-widgettitle tg-text">
@@ -107,8 +98,6 @@ $footer_data = $this->Home_Model->get_footer_data();
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>

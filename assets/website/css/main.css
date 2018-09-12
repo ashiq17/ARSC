@@ -28,9 +28,10 @@
 	padding: 0px;
 }
 body {
-	color: #666;
-	background: #fff url(../images/bodybg-01.png);
-	font:400 13px/21px 'Open Sans', Arial, Helvetica, sans-serif;
+	color: #000;
+	/*background: #fff url(../images/bodybg-01.png);*/
+	background-color: #b8e994;
+        font:400 13px/21px 'Open Sans', Arial, Helvetica, sans-serif;
 }
 body h1,
 body h2,

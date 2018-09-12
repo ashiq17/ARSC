@@ -29,12 +29,33 @@
                 background-color: #563D7C;
                 /*border-color: #122b40;*/
             }
+            .tg-addressinfo li i {
+                font-size: 12px;
+                line-height: 20px;
+                padding: 1px;
+            }
+            .tg-topbar {
+                width: 100%;
+                float: left;
+                min-height: 15px;
+                background: #037329;
+                padding: 0 0 0 0px;
+            }
+            .tg-addressinfo {
+                color: #ffffff;
+                float: left;
+                padding: 0px;
+                font-size: 12px;
+                line-height: 10px;
+                list-style: none;
+            }
             .tg-navigation ul li a {
-                color: #666;
+                color: #000;
                 display: block;
                 padding: 0 23px;
                 position: relative;
                 line-height: inherit;
+                border: #fed330;
             }
             li {
                 line-height: 28px;
@@ -60,7 +81,18 @@
             .tg-themepostleftthumb .tg-featuredimg a img, .tg-themepostleftthumb .tg-featuredimg img, .tg-themepostleftimg .tg-featuredimg a img, .tg-themepostleftimg .tg-featuredimg img {
                 height: 255px !important;
             }
-
+            .btn-primary.focus, .btn-primary:focus {
+                color: #fff;
+                background-color: #037329 !important;
+                border-color: #122b40;
+            }
+            .appbt {
+                margin-top: 8px !important;
+                background-color: #037329;
+                color: #ffe484;
+                font-weight: bold;
+                border-color: #efd288 !important;
+            }
             .appbt:hover {
                 color: #ffffff !important;
 
@@ -72,7 +104,6 @@
 
                 padding: 0 0 20px;
                 font-weight: bold;
-
             }
             .sign {
                 margin: 0 0 0px;
@@ -99,9 +130,7 @@
     // echo "</pre>";
     // die();
     ?>
-
     <body class="tg-home tg-homeone">
-
         <div id="tg-wrapper" class="tg-wrapper">
             <!--************************************
             Header Start
@@ -125,12 +154,12 @@
                                         <span><?php echo $header_data['0']['TelephoneNo'] ?></span>
                                     </li>
                                 </ul>
-                                <div class="tg-themedropdown tg-languagesdropdown">
-                                    <!-- <a href="javascript:void(0);" id="tg-languages" class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <button class="btn btn-primary appbt">APPLY ONLINE</button> -->
-                                    <a style="color: #ffe484;" target="_blank" href="<?php echo base_url('login'); ?>"><button class="btn btn-primary appbt">অ্যাডমিন</button></a>
-                                    </a>
-                                </div>
+                                <!--                                <div class="tg-themedropdown tg-languagesdropdown">
+                                                                     <a href="javascript:void(0);" id="tg-languages" class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                        <button class="btn btn-primary appbt">APPLY ONLINE</button> 
+                                                                    <a style="color: #ffe484;" target="_blank" href="<?php echo base_url('login'); ?>"><button class="btn btn-primary appbt">অ্যাডমিন</button></a>
+                                                                    </a>
+                                                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -167,7 +196,6 @@
                                         <ul>
                                             <li class="current-menu-item">
                                                 <a href="<?php echo base_url(); ?>">হোম</a>
-
                                             </li>
                                             <li class="menu-item-has-children">
                                                 <a href="javascript:void(0);">আমাদের কথা</a>
@@ -234,15 +262,16 @@
 
 
                                             <li><a href="<?php echo base_url() ?>home/ContactUs">যোগাযোগ </a></li>
+                                            <li><a href="<?php echo base_url('login');?>" target="_blank" >অ্যাডমিন</a></li>
 
-                                            <li class="menu-item-has-children">
-                                                <a href="javascript:void(0);">লগইন</a>
-                                                <ul class="sub-menu">
-                                                    <li><a target="_blank" href="<?php echo base_url('login'); ?>">শিক্ষার্থী লগইন</a></li>
-                                                    <li><a target="_blank" href="<?php echo base_url('login'); ?>">শিক্ষক লগইন</a></li>
-                                                    <li><a target="_blank" href="<?php echo base_url('login'); ?>">অভিভাবক লগইন</a></li>
-                                                </ul>
-                                            </li>
+                                            <!--                                            <li class="menu-item-has-children">
+                                                                                            <a href="javascript:void(0);">লগইন</a>
+                                                                                            <ul class="sub-menu">
+                                                                                                <li><a target="_blank" href="<?php echo base_url('login'); ?>">শিক্ষার্থী লগইন</a></li>
+                                                                                                <li><a target="_blank" href="<?php echo base_url('login'); ?>">শিক্ষক লগইন</a></li>
+                                                                                                <li><a target="_blank" href="<?php echo base_url('login'); ?>">অভিভাবক লগইন</a></li>
+                                                                                            </ul>
+                                                                                        </li>-->
                                         </ul>
                                     </div>
                                 </nav>
