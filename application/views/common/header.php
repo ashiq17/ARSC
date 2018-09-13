@@ -55,7 +55,7 @@
                 padding: 0 23px;
                 position: relative;
                 line-height: inherit;
-                border: #fed330;
+                border: #F79837;
             }
             li {
                 line-height: 28px;
