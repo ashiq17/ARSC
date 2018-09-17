@@ -166,22 +166,28 @@
                 </div>
                 <div class="clearfix"></div>
 
+                <div class="tg-logoandnoticeboard" style="background-color:#f3f3f3; padding: 0px;">
+                    <strong class="tg-logo"><a href="<?php echo base_url(); ?>">
+                            <img style="height: 75px!Important; width: 80px; alignment-adjust: right"  src='<?php echo base_url(); ?>assets/images/headerImages/<?php echo $header_data['0']['Image'] ?>' alt="School Logo">
+                        </a></strong>
+                    <div class="tg-noticeboard hidden-xs">
+                        <div class="tg-textbox">
+                            <!--<h3 align="center" style="text-transform: uppercase; color: #037329;font-size: 50px; font-weight: bold;">ABDUR RAZZAQUE SCHOOL & COLLEGE</h3>-->
+                            <h2 style="text-transform: uppercase; color: #037329">
+                                <?php echo $header_data['0']['HeaderTitle'] ?>
+
+                            </h2>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <div class="tg-logoandnoticeboard">
-                                <strong class="tg-logo"><a href="<?php echo base_url(); ?>">
-                                        <img style="height: 75px!Important; width: 80px;"  src='<?php echo base_url(); ?>assets/images/headerImages/<?php echo $header_data['0']['Image'] ?>' alt="School Logo">
-                                    </a></strong>
-                                <div class="tg-noticeboard hidden-xs">
-                                    <div class="tg-textbox">
-                                        <h2 style="text-transform: uppercase; color: #037329">
-                                            <?php echo $header_data['0']['HeaderTitle'] ?>
-                                        </h2>
-                                    </div>
 
-                                </div>
-                            </div>
                             <div class="tg-navigationarea">
                                 <nav id="tg-nav" class="tg-nav">
                                     <div class="navbar-header">
@@ -200,10 +206,11 @@
                                             <li class="menu-item-has-children">
                                                 <a href="javascript:void(0);">আমাদের কথা</a>
                                                 <ul class="sub-menu">
+                                                    <li><a href="<?php echo base_url() ?>home/PrincipalStatment">অধ্যক্ষর বাণী</a></li>
                                                     <li><a href="<?php echo base_url() ?>home/aimsAndObjective">লক্ষ্য ও উদ্দেশ্য</a></li>
                                                     <li><a href="<?php echo base_url() ?>home/keyFetures">আমাদের বৈশিষ্ট্য</a></li>
                                                     <li><a href="<?php echo base_url() ?>home/TeachersAndStaffs">শিক্ষক ও কর্মচারীবৃন্দ</a></li>
-                                                    <li><a href="<?php echo base_url() ?>home/PrincipalStatment">অধ্যক্ষর বাণী</a></li>
+                                                    <li><a href="<?php echo base_url() ?>home/bodCollege">পরিচালনা পর্ষদ</a></li>
                                                     <!-- <li><a href="<?php echo base_url() ?>home/PrincipalStatment">সভাপতি পরিচিতি</a></li> -->
                                                 </ul>
                                             </li>
@@ -262,7 +269,7 @@
 
 
                                             <li><a href="<?php echo base_url() ?>home/ContactUs">যোগাযোগ </a></li>
-                                            <li><a href="<?php echo base_url('login');?>" target="_blank" >অ্যাডমিন</a></li>
+                                            <li><a href="<?php echo base_url('login'); ?>" target="_blank" >অ্যাডমিন</a></li>
 
                                             <!--                                            <li class="menu-item-has-children">
                                                                                             <a href="javascript:void(0);">লগইন</a>

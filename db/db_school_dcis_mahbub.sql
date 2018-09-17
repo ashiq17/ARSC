@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 19, 2018 at 07:12 AM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.11
+-- Generation Time: Sep 13, 2018 at 03:29 PM
+-- Server version: 10.1.26-MariaDB
+-- PHP Version: 7.1.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -49,10 +49,8 @@ CREATE TABLE `tbl_about` (
 --
 
 INSERT INTO `tbl_about` (`AboutID`, `AboutName`, `AboutDesignation`, `AboutBody`, `AboutMission`, `AboutVission`, `AboutStatus`, `Created`, `Modified`, `UserName`, `Image`, `AboutBangla`, `AboutEnglish`) VALUES
-(1, 'Mojibur Rahman Monju', 'Vice Chairmen, NOVA', '<p>I am the son of Late Kobbadur Rahman Bhuiyan, My father was a former businessmen of Chittagong &amp; also a freedom fighter of Bangladesh. I have finished B.S.S Honors &amp; Masters degrees in Political Science from the University of Chittagong, Bangladesh.</p>\r\n\r\n<p>I am the son of Late Kobbadur Rahman Bhuiyan, My father was a former businessmen of Chittagong &amp; also a freedom fighter of Bangladesh. I have finished B.S.S Honors &amp; Masters degrees in Political Science from the University of Chittagong, Bangladesh.I am the son of Late Kobbadur Rahman Bhuiyan, My father was a former businessmen of Chittagong &amp; also a freedom fighter of Bangladesh. I have finished B.S.S Honors &amp; Masters degrees in Political Science from the University of Chittagong, Bangladesh.</p>', '<p>I am now serving as Deputy Executive Director of Diganta Television. I am a Member of Great Britain based Journalist forum National Union (NUJ) &amp; also the member of Dhaka Journalist Union (DUJ). I am a freelance writer. I like to writing article an</p>', '<p>I am now serving as Deputy Executive Director of Diganta Television. I am a Member of Great Britain based Journalist forum National Union (NUJ) &amp; also the member of Dhaka Journalist Union (DUJ). I am a freelance writer. I like to writing article and poems.</p>', 1, '30-01-2018 14:46:20', '31-01-2018 14:32:12', '', '131628_4136417161286_889116111_o.jpg', 2, 1),
-(3, ' Mojibur Rahman Monju', 'Vice Chairmen, NOVA', '<hr />\r\n<p>I am the son of Late Kobbadur Rahman Bhuiyan, My father was a former businessmen of Chittagong &amp; also a freedom fighter of Bangladesh. I have finished B.S.S Honors &amp; Masters degrees in Political Science from the University of Chittagong</p>', '<p>I am the son of Late Kobbadur Rahman Bhuiyan, My father was a former businessmen of Chittagong &amp; also a freedom fighter of Bangladesh. I have finished B.S.S Honors &amp; Masters degrees in Political Science from the University of Chittagong, Bangla</p>', '<p>I am the son of Late Kobbadur Rahman Bhuiyan, My father was a former businessmen of Chittagong &amp; also a freedom fighter of Bangladesh. I have finished B.S.S Honors &amp; Masters degrees in Political Science from the University of Chittagong, Bangladesh. I am now serving as Deputy Executive Director of Diganta Television.&nbsp;</p>', 1, '30-01-2018 16:47:04', '31-01-2018 14:31:09', '', '1170656_4778165352385_1882465626_n1.jpg', 2, 1),
-(4, ' মজিবুর রহমান মনজু', 'Vice Chairmen, NOVA', '<p>বন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে&nbsp;</p>', '<p>বন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমা</p>', '<p>বন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমাবন্ধুর পথে চলতে চলতে কাজের সূত্রে দেখা সে দেখার পর তোমা</p>', 1, '30-01-2018 18:44:00', '05-02-2018 16:13:35', '', '131628_4136417161286_889116111_o1.jpg', 1, 2),
-(5, 'আব্দুর রাজ্জাক স্কুল অ্যান্ড কলেজ', 'এই প্রতিষ্ঠানের লক্ষ্য ও উদ্দেশ্য হচ্ছে ছাত্র/ছাত্রীদের', '<p><span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষানুরাগী</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আব্দুর</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">রাজ্জাক</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">নিজের</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আবাসস্থল</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ঢাকার</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">বনশ্রীতে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">২০০৮</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সালে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রতিষ্ঠা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">করেছেন</span> &lsquo;<span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আব্দুর</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">রাজ্জাক</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">স্কুল</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">অ্যান্ড</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কলেজ।</span>&rsquo; <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কোমলমতি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সোনামণিদের</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কথা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">চিন্তা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">করে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রতিষ্ঠানটি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">গড়ে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">উঠলেও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এর</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কার্যক্রম</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">পর্যায়ক্রমে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">যেমন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">বিস্তৃতি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ঘটেছে</span>, <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">তেমনি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এটি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এখন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কিশোর</span>&nbsp; <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">তরুণ</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষার্থীদেরও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রিয়</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রতিষ্ঠান।</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কারণ</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">স্কুলের</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সঙ্গে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এটির</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">নতুন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">মাত্রা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সংযোজিত</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">হয়েছে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কলেজ।</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আধুনিক</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সময়োপযোগী</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষাপ্রতিষ্ঠান</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">হিসেবে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এটি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এখন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সুপরিচিত।</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">মেধাবী</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">দক্ষ</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষকেরা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">যেখানে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আন্তরিকভাবে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">পাঠ্য</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">বিষয়</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ছাড়াও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিল্প</span>-<span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সাহিত্য</span>-<span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সংস্কৃতিমনা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">করে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">গড়ে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">তোলেন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষার্থীদের।</span></p>\r\n\r\n<p>&nbsp;</p>', '<p>এই প্রতিষ্ঠানের লক্ষ্য ও উদ্দেশ্য হচ্ছে ছাত্র/ছাত্রীদের&nbsp; বা সামগ্রিক শিক্ষা প্রদান করা। খেলাধুলা, নানাবিধ সামাজিক ও সাংস্কৃতিক কর্মকান্ডের মাধ্যমে শিক্ষার্থীর সুপ্ত প্রতিভা বিকশিত করা এবং চরিত্র গঠন ও নেতৃত্ব বিকাশের গুণাবলী অর্জনের উপযোগী করে গড়ে তোলা। প্রতিষ্ঠানের আরেকটি অনন্য বৈশিষ্ট্য হচ্ছে শিক্ষার্থীদের কাছ থেকে প্রাপ্ত সমুদয় অর্থ প্রতিষ্ঠানের কল্যাণেই ব্যয় করা হয়।</p>', '', 1, '19-08-2018 01:06:23', '', '1', '', 1, 2);
+(5, 'আব্দুর রাজ্জাক স্কুল অ্যান্ড কলেজ', 'এই প্রতিষ্ঠানের লক্ষ্য ও উদ্দেশ্য হচ্ছে ছাত্র/ছাত্রীদের', '<p><span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষানুরাগী</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আব্দুর</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">রাজ্জাক</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">নিজের</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আবাসস্থল</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ঢাকার</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">বনশ্রীতে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">২০০৮</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সালে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রতিষ্ঠা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">করেছেন</span> &lsquo;<span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আব্দুর</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">রাজ্জাক</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">স্কুল</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">অ্যান্ড</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কলেজ।</span>&rsquo; <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কোমলমতি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সোনামণিদের</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কথা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">চিন্তা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">করে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রতিষ্ঠানটি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">গড়ে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">উঠলেও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এর</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কার্যক্রম</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">পর্যায়ক্রমে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">যেমন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">বিস্তৃতি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ঘটেছে</span>, <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">তেমনি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এটি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এখন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কিশোর</span>&nbsp; <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">তরুণ</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষার্থীদেরও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রিয়</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">প্রতিষ্ঠান।</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কারণ</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">স্কুলের</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সঙ্গে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এটির</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">নতুন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">মাত্রা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সংযোজিত</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">হয়েছে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">কলেজ।</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আধুনিক</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সময়োপযোগী</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষাপ্রতিষ্ঠান</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">হিসেবে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এটি</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">এখন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সুপরিচিত।</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">মেধাবী</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">দক্ষ</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষকেরা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">যেখানে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">আন্তরিকভাবে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">পাঠ্য</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">বিষয়</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">ছাড়াও</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিল্প</span>-<span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সাহিত্য</span>-<span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">সংস্কৃতিমনা</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">করে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">গড়ে</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">তোলেন</span> <span style=\"font-family:&quot;Nirmala UI&quot;,sans-serif\">শিক্ষার্থীদের।</span></p>\r\n\r\n<p>&nbsp;</p>', '<p>এই প্রতিষ্ঠানের লক্ষ্য ও উদ্দেশ্য হচ্ছে ছাত্র/ছাত্রীদের&nbsp; বা সামগ্রিক শিক্ষা প্রদান করা। খেলাধুলা, নানাবিধ সামাজিক ও সাংস্কৃতিক কর্মকান্ডের মাধ্যমে শিক্ষার্থীর সুপ্ত প্রতিভা বিকশিত করা এবং চরিত্র গঠন ও নেতৃত্ব বিকাশের গুণাবলী অর্জনের উপযোগী করে গড়ে তোলা। প্রতিষ্ঠানের আরেকটি অনন্য বৈশিষ্ট্য হচ্ছে শিক্ষার্থীদের কাছ থেকে প্রাপ্ত সমুদয় অর্থ প্রতিষ্ঠানের কল্যাণেই ব্যয় করা হয়।</p>', '', 1, '19-08-2018 01:06:23', '', '1', '', 1, 2),
+(7, 'eZ©gv‡b RvZxq', 'eZ©gv‡b RvZxq', '<p style=\"text-align:justify\"><span style=\"font-size:12.0pt\"><span style=\"font-family:SutonnyMJ\">eZ&copy;gv&Dagger;b RvZxq KvwiKzjv&Dagger;g evsjv I Bswjk fvm&copy;&Dagger;b &dagger;c&oslash;-M&Ouml;&aelig;c &dagger;_&Dagger;K &Oslash;v`k &dagger;k&ordf;wY ch&copy;&scaron;&Iacute; cvV`vb Kvh&copy;&micro;g Pj&Dagger;Q| Avmyb GB &cedil;YMZ wk&para;v we&macr;&Iacute;vi wec&oslash;&Dagger;e AskM&Ouml;nY K&Dagger;i Avgv&Dagger;`i&Dagger;K mnvqZv Ki&aelig;b| gnvb m&bdquo;w&oacute;KZ&copy;v Avgv&Dagger;`i mevB&Dagger;K &dagger;ndvRZ Ki&aelig;b| Avwgb|</span></span></p>', '<p style=\"text-align:justify\"><span style=\"font-size:12.0pt\"><span style=\"font-family:SutonnyMJ\">eZ&copy;gv&Dagger;b RvZxq KvwiKzjv&Dagger;g evsjv I Bswjk fvm&copy;&Dagger;b &dagger;c&oslash;-M&Ouml;&aelig;c &dagger;_&Dagger;K &Oslash;v`k &dagger;k&ordf;wY ch&copy;&scaron;&Iacute; cvV`vb Kvh&copy;&micro;g Pj&Dagger;Q| Avmyb GB &cedil;YMZ wk&para;v we&macr;&Iacute;vi wec&oslash;&Dagger;e AskM&Ouml;nY K&Dagger;i Avgv&Dagger;`i&Dagger;K mnvqZv Ki&aelig;b| gnvb m&bdquo;w&oacute;KZ&copy;v Avgv&Dagger;`i mevB&Dagger;K &dagger;ndvRZ Ki&aelig;b| Avwgb|</span></span></p>', '<p style=\"text-align:justify\"><span style=\"font-size:12.0pt\"><span style=\"font-family:SutonnyMJ\">eZ&copy;gv&Dagger;b RvZxq KvwiKzjv&Dagger;g evsjv I Bswjk fvm&copy;&Dagger;b &dagger;c&oslash;-M&Ouml;&aelig;c &dagger;_&Dagger;K &Oslash;v`k &dagger;k&ordf;wY ch&copy;&scaron;&Iacute; cvV`vb Kvh&copy;&micro;g Pj&Dagger;Q| Avmyb GB &cedil;YMZ wk&para;v we&macr;&Iacute;vi wec&oslash;&Dagger;e AskM&Ouml;nY K&Dagger;i Avgv&Dagger;`i&Dagger;K mnvqZv Ki&aelig;b| gnvb m&bdquo;w&oacute;KZ&copy;v Avgv&Dagger;`i mevB&Dagger;K &dagger;ndvRZ Ki&aelig;b| Avwgb|</span></span></p>', 1, '19-08-2018 12:47:06', '', '1', '', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -367,7 +365,9 @@ CREATE TABLE `tbl_depart_desig_notice` (
 INSERT INTO `tbl_depart_desig_notice` (`depart_desg_id`, `notice_publish_id`, `notice_view_type`, `depart_or_desig`, `created`, `modified`) VALUES
 (1, 3, 2, 2, '09-04-2018 18:37:56', '09-04-2018 18:37:56'),
 (2, 3, 2, 5, '09-04-2018 18:37:56', '09-04-2018 18:37:56'),
-(3, 3, 2, 10, '09-04-2018 18:37:56', '09-04-2018 18:37:56');
+(3, 3, 2, 10, '09-04-2018 18:37:56', '09-04-2018 18:37:56'),
+(4, 4, 1, NULL, '28-08-2018 16:21:49', '28-08-2018 16:21:49'),
+(5, 5, 1, NULL, '28-08-2018 17:29:54', '28-08-2018 17:29:54');
 
 -- --------------------------------------------------------
 
@@ -381,17 +381,21 @@ CREATE TABLE `tbl_designation` (
   `DesignationStatus` tinyint(3) NOT NULL,
   `Created` varchar(50) NOT NULL,
   `Modified` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tbl_designation`
 --
 
 INSERT INTO `tbl_designation` (`DesignationID`, `DesignationName`, `DesignationStatus`, `Created`, `Modified`) VALUES
-(1, 'Head Teacher', 1, '17-03-2018 15:48:16', ''),
-(2, 'English Teacher', 1, '17-03-2018 17:09:16', ''),
-(3, 'Mathmatic Teacher', 1, '27-03-2018 17:44:36', ''),
-(4, 'Staff', 1, '12-05-2018 13:55:17', '');
+(1, 'অধ্যক্ষ', 1, '30-08-2018 19:42:55', ''),
+(2, 'উপাধ্যক্ষ', 1, '30-08-2018 19:43:08', ''),
+(3, 'সিনিয়র শিক্ষক', 1, '30-08-2018 19:43:20', ''),
+(4, 'শিক্ষক', 1, '30-08-2018 19:43:31', ''),
+(5, 'সহকারী শিক্ষক', 1, '30-08-2018 19:43:41', ''),
+(6, 'সহ-ব্যবস্থাপক (প্রশাসন)', 1, '30-08-2018 19:43:50', ''),
+(7, 'কম্পিউটার অপারেটর', 1, '30-08-2018 19:44:01', '30-08-2018 19:44:31'),
+(8, 'সেবিকা', 1, '30-08-2018 19:44:43', '');
 
 -- --------------------------------------------------------
 
@@ -611,7 +615,7 @@ CREATE TABLE `tbl_footer` (
 --
 
 INSERT INTO `tbl_footer` (`FooterID`, `MobileNo`, `TelephoneNo`, `Email`, `Website`, `Image`, `Address1`, `Address2`, `FacebookLink`, `TwitterLink`, `AddLink1`, `AddLink2`, `ExtraInfo`, `Created`, `Modified`, `FooterStatus`, `YouTubeLink`, `UserName`) VALUES
-(1, '01741463871', '8396295', 'info.arsc2014@gmail.com', '', '', 'House # 36 Road 3, Banasree, Dhaka 1219', 'House # 36 Road 3, Banasree, Dhaka 1219', '', '', '', '', '', '29-04-2018 14:00:52', '12-08-2018 18:10:37', 1, '', '1');
+(1, '০১৭৪১৪৬৩৮৭১', '৮৩৯৬২৯৫', 'info.arsc2014@gmail.com', '', '', ' বাসা # ৩৬, রাস্তা # ৩, বনশ্রী, ঢাকা-১২১৯ ', 'বাসা # ৩৬, রাস্তা # ৩, বনশ্রী, ঢাকা-১২১৯', '', '', '', '', '', '29-04-2018 14:00:52', '28-08-2018 12:17:48', 1, '', '1');
 
 -- --------------------------------------------------------
 
@@ -706,7 +710,7 @@ CREATE TABLE `tbl_header` (
 --
 
 INSERT INTO `tbl_header` (`HeaderID`, `HeaderTitle`, `MobileNo`, `TelephoneNo`, `Email`, `Website`, `Image`, `Address1`, `Address2`, `FacebookLink`, `TwitterLink`, `AddLink1`, `AddLink2`, `ExtraInfo`, `Created`, `HeaderStatus`, `Modified`, `YouTubeLink`, `UserName`) VALUES
-(1, 'আব্দুর রাজ্জাক স্কুল অ্যান্ড কলেজ', '01741463871', '8396295', 'info.arsc2014@gmail.com', 'www.arscbd.com', 'logo2.png', 'House # 36 Road 3, Banasree, Dhaka 1219', 'House # 36 Road 3, Banasree, Dhaka 1219', '', '', '', '', '', '29-04-2018 13:59:27', 1, '12-08-2018 18:12:27', '', '1'),
+(1, 'আব্দুর রাজ্জাক স্কুল অ্যান্ড কলেজ', '০১৭৪১৪৬৩৮৭১', '৮৩৯৬২৯৫', 'info.arsc2014@gmail.com', 'www.arscbd.com', 'logo2.png', 'বাসা # ৩৬, রাস্তা # ৩, বনশ্রী, ঢাকা-১২১৯', 'বাসা # ৩৬, রাস্তা # ৩, বনশ্রী, ঢাকা-১২১৯', '', '', '', '', '', '29-04-2018 13:59:27', 1, '28-08-2018 12:15:57', '', '1'),
 (2, 'Avãyi iv¾vK ¯‹zj A¨vÛ K‡jR', '', '', '', '', '', '', '', '', '', '', '', '', '12-08-2018 17:48:44', 1, '', '', '1');
 
 -- --------------------------------------------------------
@@ -1510,20 +1514,6 @@ CREATE TABLE `tbl_notes` (
   `modified` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `tbl_notes`
---
-
-INSERT INTO `tbl_notes` (`note_id`, `note_type`, `note_title`, `noteBody`, `status`, `created`, `modified`) VALUES
-(4, 1, 'Fever', '<p>Long time fever.</p>\r\n', 1, '02-07-2017 16:34:08', '02-11-2017 12:17:28'),
-(5, 1, 'Suffering from cold', '<p>Suffering from cold</p>\r\n', 1, '04-07-2017 11:09:50', '02-11-2017 12:17:57'),
-(7, 2, 'Eid Holiday', '<h3><span style=\"font-family:Comic Sans MS,cursive\"><strong>General Notice:</strong></span></h3>\r\n\r\n<p><em>Eid Holiday from 23/6/2017 to 30/6/2017</em></p>\r\n', 1, '05-07-2017 11:58:20', '05-07-2017 11:58:20'),
-(8, 1, 'Sick Leave', '<p>Sick Leave</p>\r\n', 1, '13-07-2017 14:07:45', '02-11-2017 12:18:08'),
-(9, 2, 'This is a notice', '<p>This is a notice with lots o information. there are maj</p>\r\n', 1, '02-11-2017 15:41:07', '02-11-2017 15:41:07'),
-(10, 2, 'New Notice', '<p>New Notice</p>\r\n\r\n<p>New Notice</p>\r\n\r\n<p>New Notice</p>\r\n', 1, '06-11-2017 09:40:43', '06-11-2017 09:40:43'),
-(11, 1, 'Personal', '<p>Personal family problem</p>\r\n', 1, '20-12-2017 16:35:46', '20-12-2017 16:35:46'),
-(12, 2, 'Important Notice', '<p>Our services are delivered by our team with years of experience who are passionate about developing business.</p>\r\n', 1, '20-03-2018 14:58:01', '20-03-2018 14:58:01');
-
 -- --------------------------------------------------------
 
 --
@@ -1548,9 +1538,7 @@ CREATE TABLE `tbl_notice_publish` (
 --
 
 INSERT INTO `tbl_notice_publish` (`notice_id`, `notice_date`, `expired_date`, `notice_view_type`, `department_or_designation_list`, `notice_title`, `notice_body_details`, `status`, `created`, `modified`) VALUES
-(1, '09-04-2018', '09-04-2018', 0, 'NULL', '9', '1st Term Exam Result-2018, has been published today!', 1, '09-04-2018 16:29:43', '09-04-2018 16:29:43'),
-(2, '09-04-2018', '09-04-2018', 0, 'NULL', '9', '1st Term Exam Result-2018, has been published today!\r\n', 2, '09-04-2018 16:31:07', '09-04-2018 16:31:07'),
-(3, '09-04-2018', '09-04-2018', 0, 'NULL', '9', '\r\n\r\n1st Term Exam Result-2018, has been published today!', 2, '09-04-2018 18:37:56', '09-04-2018 18:37:56');
+(5, '28-08-2018', '28-08-2018', 0, 'NULL', '', 'বর্তমানে এই ওয়েবসাইটটি নির্মাণাধীন অবস্থায় আছে, তাই আপনাদের সাময়িক অসুবিধার জন্য আমরা দুঃখিত, ধন্যবাদ ।  ', 1, '28-08-2018 17:29:54', '28-08-2018 17:29:54');
 
 -- --------------------------------------------------------
 
@@ -1990,10 +1978,9 @@ CREATE TABLE `tbl_photos` (
 --
 
 INSERT INTO `tbl_photos` (`photos_id`, `photo_gallery_id`, `ph_image`, `ph_caption`, `ph_description`, `photo_order`, `ph_status`, `ph_slider_images`, `ph_gallery1_image`, `ph_gallery2_image`) VALUES
-(3, 1, 'img-04.jpg', 'Long Journey', '', 1, 1, '1', 1, 0),
-(4, 1, 'img-01.jpg', 'Long Journey2', '', 2, 1, '1', 1, 1),
-(8, 1, 'img-061.jpg', 'Lab Class Room', '', 0, 1, '1', 1, 0),
-(9, 6, 'Kazi_Afroza_Begum.jpg', 'কাজী আফরোজা বেগম (সিনিয়র শিক্ষিকা) ', '', 0, 1, '1', 1, 0);
+(9, 6, 'Kazi_Afroza_Begum.jpg', 'কাজী আফরোজা বেগম (সিনিয়র শিক্ষিকা) ', '', 0, 1, '0', 1, 1),
+(11, 1, 'arsc2.jpg', 'arsc2', '', 2, 1, '1', 1, 0),
+(12, 1, 'arsc3.jpg', 'arsc3', '', 3, 1, '1', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -6758,20 +6745,57 @@ CREATE TABLE `tbl_teacher` (
   `Teacher_marital_status` int(2) NOT NULL,
   `Teacher_shift` int(2) NOT NULL,
   `Teacher_medium` int(2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tbl_teacher`
 --
 
 INSERT INTO `tbl_teacher` (`Teacher_ID`, `Teacher_Name`, `Teacher_FathersName`, `Teacher_MothersName`, `Teacher_IndexNo`, `Teacher_UniqueID`, `Teacher_NationalID`, `Teacher_gender`, `Teacher_email`, `Teacher_mobile`, `Teacher_DateOfBirth`, `Teacher_joining_date`, `Image`, `Teacher_designation`, `Teacher_BloodGroup`, `Teacher_religion`, `Teacher_address`, `Teacher_status`, `Created`, `Modified`, `Teacher_marital_status`, `Teacher_shift`, `Teacher_medium`) VALUES
-(1, 'Alamgir Kabir', '', '', '', '101', '', '1', 'email@gmail.com', '8801678612681', '12-03-2018', '0000-00-00', 'mahbub3.jpg', '1', '1', '1', '                                                                                                                                                                                                                                                               ', '2', '19-03-2018 19:35:27', '15-04-2018 19:41:06', 1, 2, 2),
-(2, 'Aminul Haque', '', '', '', '102', '', '1', 'email@gmail.com', '8801749717065', '12-03-2018', '0000-00-00', 'mahbub4.jpg', '1', '1', '1', '                                                                                                                                                                                          Dhaka, bANGLADESH                                                    ', '1', '12-03-2018 04:21:08', '15-04-2018 19:41:17', 1, 1, 1),
-(3, 'Tahmina Akhter', '', '', '', '103', '', '1', 'email@gmail.com', '8801912751486', '12-03-2018', '21-12-1900', 'mahbub5.jpg', '2', '1', '2', '                                                                                                                                                                                                                                                               ', '2', '12-03-2018 04:22:00', '15-04-2018 19:41:26', 2, 2, 2),
-(4, 'Mahbubur Rahman', 'Abdul Awal', 'Hamida Begum', '12121', '104', '121313663653', '1', 'mahbub@gmail.com', '8801611254580', '24-03-2018', '24-03-2018', 'alomgir-kabir4.jpg', '1', '5', '1', '                                                                                                                                                                                                                                                        Dhaka  ', '1', '24-03-2018 13:20:52', '29-04-2018 17:18:28', 1, 1, 1),
-(5, 'Mahbubur Rahman', 'Abdul Awal', 'Hamida Begum', '12121', '105', '121313663653', '1', 'mahbub@gmail.com', '01912751486', '23-11-1989', '20-06-2017', 'shanto.png', '1', '5', '1', '                                                                                                                                                                                                                                                               ', '2', '24-03-2018 13:22:47', '29-04-2018 17:18:44', 1, 1, 1),
-(7, 'Shakhawat Hossain', 'Md Elias', 'Rezia Begum', '12121', '106', '121313663653', '1', 'shakhawat@gmail.com', '01836408989', '24-03-2018', '24-03-2018', 'tahmina1.jpg', '2', '6', '1', '                                                                                                                                                                                                                                                               ', '2', '24-03-2018 15:25:34', '29-04-2018 17:19:01', 1, 1, 1),
-(8, 'Shanto Halder', 'Prafulla halder', 'Debi Rani', '14141', '107', '121313663653', '1', '1hasan@gmail.com', '01837171180111', '24-03-2018', '24-03-2018', '63EB6188-3EA4-4175-88F9-8EF27FE9C8DD2.jpg', '2', '2', '2', '                                                                                                                                                                                                                                                               ', '2', '24-03-2018 15:27:48', '29-04-2018 17:19:09', 1, 2, 2);
+(11, 'ড. এম এ কে নেওয়াজ', '', '', '', '001', '', '1', '', '', '19-08-2018', '19-08-2018', 'profdrmakneoaj.jpg', '1', '1', '1', '                                                                                                                                                                                                                                                               ', '1', '19-08-2018 12:15:48', '13-09-2018 18:56:50', 1, 1, 1),
+(16, 'সানজিদা সুলতানা', '', '', '', '002', '', '2', '', '', '30-08-2018', '30-08-2018', 'sanjidasultana.jpg', '2', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:46:16', '13-09-2018 18:47:40', 1, 1, 1),
+(17, 'বিদৌরা সুলতানা', '', '', '', '003', '', '2', '', '', '30-08-2018', '30-08-2018', 'bidorasultana.jpg', '3', '1', '1', '                                                                                                                          ', '1', '30-08-2018 19:49:06', '13-09-2018 18:47:59', 1, 1, 1),
+(18, 'ফারহানা আহমেদ', '', '', '', '004', '', '2', '', '', '30-08-2018', '30-08-2018', 'farhanaahmed.jpg', '3', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:49:54', '13-09-2018 18:48:18', 1, 1, 1),
+(19, 'শামীম আরা বেগম', '', '', '', '005', '', '2', '', '', '30-08-2018', '30-08-2018', 'shamimarabegum.jpg', '3', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:50:12', '13-09-2018 18:48:41', 1, 1, 1),
+(20, 'নাসরীন বেগম ', '', '', '', '006', '', '2', '', '', '30-08-2018', '30-08-2018', 'nasreenbegum.jpg', '3', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:50:31', '13-09-2018 18:48:54', 1, 1, 1),
+(21, 'কাজী আফরোজা বেগম', '', '', '', '007', '', '2', '', '', '30-08-2018', '30-08-2018', 'kaziafrozabegum.jpg', '3', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:51:40', '13-09-2018 18:57:08', 1, 1, 1),
+(22, 'মোঃ মাজহারুল ইসলাম', '', '', '', '008', '', '1', '', '', '30-08-2018', '30-08-2018', 'mdmazharulislam.jpg', '3', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:52:26', '13-09-2018 18:49:11', 1, 1, 1),
+(23, 'মাহফুজা ইয়াসমিন স্বপ্না', '', '', '', '009', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 19:52:57', '', 1, 1, 1),
+(24, 'মাহবুবা চৌধুরী সনেট', '', '', '', '010', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 19:53:56', '', 1, 1, 1),
+(25, 'ফারজানা ইসলাম', '', '', '', '011', '', '2', '', '', '30-08-2018', '30-08-2018', 'farzanaislam.jpg', '4', '1', '1', '                                                                                                                          ', '1', '30-08-2018 19:54:28', '13-09-2018 18:50:19', 1, 1, 1),
+(26, 'ছাবিনা ইয়াসমিন', '', '', '', '012', '', '2', '', '', '30-08-2018', '30-08-2018', 'sabinayeasmin.jpg', '4', '1', '1', '                                                                                                                          ', '1', '30-08-2018 19:55:07', '13-09-2018 18:50:33', 1, 1, 1),
+(27, 'শক্তিময়ী হিরা', '', '', '', '013', '', '2', '', '', '30-08-2018', '30-08-2018', 'shoktimoyeehira.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:55:30', '13-09-2018 19:02:47', 1, 1, 1),
+(28, 'আফসানা আক্তার', '', '', '', '014', '', '2', '', '', '30-08-2018', '30-08-2018', 'afsanaaktar.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:56:37', '13-09-2018 19:03:08', 1, 1, 1),
+(29, 'তামান্না সুলতানা', '', '', '', '015', '', '2', '', '', '30-08-2018', '30-08-2018', 'tamannasultana.jpg', '4', '1', '1', '                                                                                                                          ', '1', '30-08-2018 19:57:13', '13-09-2018 18:51:19', 1, 1, 1),
+(30, 'ফারহানা আফরোজ', '', '', '', '016', '', '2', '', '', '30-08-2018', '30-08-2018', 'farzanaafroze.jpg', '5', '1', '1', '                                                                                                                          ', '1', '30-08-2018 19:57:42', '13-09-2018 18:52:07', 1, 1, 1),
+(31, 'নাদিয়া সুলতানা', '', '', '', '017', '', '2', '', '', '30-08-2018', '30-08-2018', 'nadiasultana.jpg', '5', '1', '1', '                                                                                                                          ', '1', '30-08-2018 19:58:07', '13-09-2018 18:52:24', 1, 1, 1),
+(32, 'তৌহিদা আক্তার', '', '', '', '018', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 19:59:18', '', 1, 1, 1),
+(33, 'মোহাম্মদ কামরুজ্জামান', '', '', '', '019', '', '1', '', '', '30-08-2018', '30-08-2018', 'mohammadkamruzzaman.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 19:59:37', '13-09-2018 19:00:33', 1, 1, 1),
+(34, 'জুবাইদা গুলশান আরা', '', '', '', '020', '', '2', '', '', '30-08-2018', '30-08-2018', 'jubaidagulshanara.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:00:10', '13-09-2018 18:57:33', 1, 1, 1),
+(35, 'সাদিয়া আক্তার', '', '', '', '021', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 20:00:51', '', 1, 1, 1),
+(36, 'হাসিবুল হাসান', '', '', '', '022', '', '1', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 20:01:06', '', 1, 1, 1),
+(37, 'অরিন ফারিয়া শাওন', '', '', '', '023', '', '2', '', '', '30-08-2018', '30-08-2018', 'orinfariashaon.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:01:43', '13-09-2018 18:58:54', 1, 1, 1),
+(38, 'সুমী আক্তার', '', '', '', '024', '', '2', '', '', '30-08-2018', '30-08-2018', 'sumeakter.jpg', '5', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:01:58', '13-09-2018 18:59:26', 1, 1, 1),
+(39, 'ফারহানা জেসমিন', '', '', '', '025', '', '2', '', '', '30-08-2018', '30-08-2018', 'farhanajesmin.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:02:16', '13-09-2018 18:59:42', 1, 1, 1),
+(40, 'লিপা সুলতানা', '', '', '', '026', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 20:02:50', '', 1, 1, 1),
+(41, 'নাজিয়া আলম', '', '', '', '027', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 20:03:06', '', 1, 1, 1),
+(42, 'মারুফা আক্তার মৌ', '', '', '', '028', '', '2', '', '', '30-08-2018', '30-08-2018', '', '5', '', '1', '', '1', '30-08-2018 20:03:33', '', 1, 1, 1),
+(43, 'মোঃ শামীম শেখ', '', '', '', '029', '', '1', '', '', '30-08-2018', '30-08-2018', 'shamimsheikh.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:03:48', '13-09-2018 19:00:09', 1, 1, 1),
+(44, 'সেলিনা আক্তার', '', '', '', '030', '', '2', '', '', '30-08-2018', '30-08-2018', 'selinaakhter.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:04:07', '13-09-2018 19:01:29', 1, 1, 1),
+(45, 'সোহেলী আফরোজ', '', '', '', '031', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 20:04:22', '', 1, 1, 1),
+(46, 'মাসুদ রানা', '', '', '', '032', '', '1', '', '', '30-08-2018', '30-08-2018', 'mdmasudrana.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:04:37', '13-09-2018 19:02:12', 1, 1, 1),
+(47, 'ফারজানা আফরোজ', '', '', '', '033', '', '2', '', '', '30-08-2018', '30-08-2018', 'farzanaafroze1.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:04:54', '13-09-2018 19:01:13', 1, 1, 1),
+(48, 'সুজানা ইসলাম	', '', '', '', '034', '', '2', '', '', '30-08-2018', '30-08-2018', 'sujanaislam.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:05:20', '13-09-2018 19:03:55', 1, 1, 1),
+(49, 'আবুল খায়ের', '', '', '', '035', '', '1', '', '', '30-08-2018', '30-08-2018', 'mdabulkhair.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:06:12', '13-09-2018 19:04:21', 1, 1, 1),
+(50, 'মো. আল-মামুন খান', '', '', '', '036', '', '1', '', '', '30-08-2018', '30-08-2018', 'mdalmamunkhan.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:06:31', '13-09-2018 19:04:34', 1, 1, 1),
+(51, 'শামীমা রহমান বীথি', '', '', '', '037', '', '2', '', '', '30-08-2018', '30-08-2018', '', '4', '', '1', '', '1', '30-08-2018 20:06:48', '', 1, 1, 1),
+(52, 'জান্নাত আরা দিবা', '', '', '', '038', '', '2', '', '', '30-08-2018', '30-08-2018', 'jannataradiba.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:07:09', '13-09-2018 19:05:06', 1, 1, 1),
+(53, 'কিসমত আরা', '', '', '', '039', '', '2', '', '', '30-08-2018', '30-08-2018', 'kismatara.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:07:29', '13-09-2018 19:05:23', 1, 1, 1),
+(54, 'সাজিয়া লাইজু', '', '', '', '040', '', '2', '', '', '30-08-2018', '30-08-2018', 'sazialaizu.jpg', '4', '1', '1', '                                                                                                                                                                                                                                                    ', '1', '30-08-2018 20:07:47', '13-09-2018 19:05:31', 1, 1, 1),
+(55, 'ফরিদা আক্তার', '', '', '', '041', '', '2', '', '', '30-08-2018', '30-08-2018', '', '5', '', '1', '', '1', '30-08-2018 20:08:11', '', 1, 1, 1),
+(56, 'খাদিজা আক্তার', '', '', '', '042', '', '2', '', '', '30-08-2018', '30-08-2018', '', '6', '', '1', '', '1', '30-08-2018 20:08:36', '', 1, 1, 1),
+(57, 'দলিল উদ্দিন আহমেদ', '', '', '', '043', '', '1', '', '', '30-08-2018', '30-08-2018', '', '7', '1', '1', '                                                                                                                          ', '1', '30-08-2018 20:09:00', '13-09-2018 19:06:03', 1, 1, 1),
+(58, 'মানবী বিশ্বাস', '', '', '', '044', '', '2', '', '', '30-08-2018', '30-08-2018', '', '8', '', '1', '', '1', '30-08-2018 20:09:14', '', 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -7596,7 +7620,7 @@ ALTER TABLE `tbl_year`
 -- AUTO_INCREMENT for table `tbl_about`
 --
 ALTER TABLE `tbl_about`
-  MODIFY `AboutID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `AboutID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `tbl_account_transaction`
@@ -7644,13 +7668,13 @@ ALTER TABLE `tbl_departments`
 -- AUTO_INCREMENT for table `tbl_depart_desig_notice`
 --
 ALTER TABLE `tbl_depart_desig_notice`
-  MODIFY `depart_desg_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `depart_desg_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_designation`
 --
 ALTER TABLE `tbl_designation`
-  MODIFY `DesignationID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `DesignationID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `tbl_designations`
@@ -7776,13 +7800,13 @@ ALTER TABLE `tbl_member`
 -- AUTO_INCREMENT for table `tbl_notes`
 --
 ALTER TABLE `tbl_notes`
-  MODIFY `note_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `note_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `tbl_notice_publish`
 --
 ALTER TABLE `tbl_notice_publish`
-  MODIFY `notice_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `notice_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_pages`
@@ -7812,7 +7836,7 @@ ALTER TABLE `tbl_permissions`
 -- AUTO_INCREMENT for table `tbl_photos`
 --
 ALTER TABLE `tbl_photos`
-  MODIFY `photos_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `photos_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `tbl_photo_galleries`
@@ -7926,7 +7950,7 @@ ALTER TABLE `tbl_subject`
 -- AUTO_INCREMENT for table `tbl_teacher`
 --
 ALTER TABLE `tbl_teacher`
-  MODIFY `Teacher_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `Teacher_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
 
 --
 -- AUTO_INCREMENT for table `tbl_teacher_attendance`

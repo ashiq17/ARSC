@@ -27,7 +27,10 @@ class Home extends CI_Controller {
 	}
 	public function TeachersAndStaffs(){
 		$this->load->view('common/TeachersAndStaffs');
-	}	
+	}
+        public function bodCollege(){
+		$this->load->view('common/bodCollege');
+	}
 	public function TeachersMoreInfo(){
 		$teacher_id =$this->uri->segment(3);
 	
